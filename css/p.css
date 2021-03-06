@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(to right, #23baca, #000, #777);
+  animation-name: nav;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nav {
+    0%{background: linear-gradient(to right, #23baca, #000, #777);}
+    100%{background: linear-gradient(to right, #777, #000, #23baca);}
+}
+
+/*
+ul {
+  display: flex;
+}
+
+li {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #424242;
+  background: #777;
+}

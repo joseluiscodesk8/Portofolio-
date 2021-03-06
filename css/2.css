@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 100px auto;
+    width: 1200px;
+    height: 250px;
+    
+    
+}
+
+div.contenedor {
+    display: block;
+    width: 300px;
+    height: 250px;
+    float: left;
+    transition: 0.3s;
+    
+}
+
+div#uno {
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#233654+1,00a6d6+100 */
+    background: rgb(35,54,84); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(35,54,84,1) 1%, rgba(0,166,214,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(35,54,84,1) 1%,rgba(0,166,214,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(35,54,84,1) 1%,rgba(0,166,214,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233654', endColorstr='#00a6d6',GradientType=1 ); /* IE6-9 */
+    
+    
+}
+
+div#dos {
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00a6d6+0,cf3476+100 */
+    background: rgb(0,166,214); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(0,166,214,1) 0%, rgba(207,52,118,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(0,166,214,1) 0%,rgba(207,52,118,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(0,166,214,1) 0%,rgba(207,52,118,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a6d6', endColorstr='#cf3476',GradientType=1 ); /* IE6-9 */
+    
+}
+
+div#tres {
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cf3476+0,f8f300+100 */
+    background: rgb(207,52,118); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(207,52,118,1) 0%, rgba(248,243,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(207,52,118,1) 0%,rgba(248,243,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(207,52,118,1) 0%,rgba(248,243,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf3476', endColorstr='#f8f300',GradientType=1 ); /* IE6-9 */
+    ;
+}
+
+div#cuatro {
+    background:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8f300+0,323654+100 */
+    background: rgb(248,243,0); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(248,243,0,1) 0%, rgba(50,54,84,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(248,243,0,1) 0%,rgba(50,54,84,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(248,243,0,1) 0%,rgba(50,54,84,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f300', endColorstr='#323654',GradientType=1 ); /* IE6-9 */
+    ;
+}
+
+div.contenedor:hover {
+    height:  350px;
+
+}
+
+/*imagenes*/
+
+img.mujer {;
+    width: 100%;
+    position: relative;
+    top: 162px;
+    opacity: 0;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    
+    
+}
+
+img.ani {
+    width: 100%;
+    position: relative;
+    top: 181px;
+    opacity: 0;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+}
+
+img.vash {
+    width: 100%;
+    position: relative;
+    top: 146px;
+    opacity: 0;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    
+}
+
+img.desa {
+    width: 100%;
+    position: relative;
+    top: 181px;
+    opacity: 0;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+}
+
+
+#uno:hover img.mujer {
+    opacity: 1;
+}
+
+#dos:hover img.ani {
+    opacity: 1;
+}
+
+#tres:hover img.vash {
+    opacity: 1;
+}
+
+#cuatro:hover img.desa {
+    opacity: 1;
+}
+
+/*imagenes de iconos*/
+#uno img.icon {
+    position: relative;
+    margin-top: -160px;
+}
+
+#dos img.icon {
+    position: relative;
+    margin-top: -140px;
+}
+
+#tres img.icon {
+    position: relative;
+    margin-top: -348px;
+}
+
+#cuatro img.icon {
+    position: relative;
+    margin-top: -145px;
+}
+
+img.icon {
+    display: block;
+    margin: 60px auto;
+    padding: 15px;
+    width: 50px;
+    background: #transparent;
+    -webkit-border-radius: 20%;
+     box-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0 0 1000px #fff;*/
+    /*box-shadow: 0px 0px 10px #1416, 0px 0px 10px;*/
+    transition: 0.5s;
+    transition-delay: 0.5;
+   
+}
+
+div.contenedor:hover img.icon {
+    box-shadow: 0px 0px 0px #1416, 0px 0px 0px;
+    
+}
+
+p.texto {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10px;
+    transition: 0.3s;
+    transition-delay: 0.1s;
+}
+
+div.contenedor:hover p.texto {
+    opacity: 0;
+}
