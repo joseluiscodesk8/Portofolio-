@@ -25,18 +25,12 @@ body {
 /*header*/
 
 header {
-  display: flex;
   width: 100%;
   box-shadow: 0 0 5px #1416, 0 0 2px #1416;
 }
 
-nav {
-  width: 100%;
-}
-
 ul {
   display: flex;
-  background: #23baca;
 }
 
 a {
@@ -468,4 +462,79 @@ svg circle:nth-child(2) {
 .card:nth-child(6) svg circle:nth-child(2) {
   stroke-dashoffset: calc(380 - (380 * 15) / 100);
   stroke: yellow;
+}
+
+/*respopnsive*/
+@media (max-width: 700px) {
+  header {
+    width: 100%;
+    height: 300px;
+    background-color: #00a6d6;
+    animation-name: header;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes header {
+    0% {
+      background-color: #00a6d6;
+    }
+    35% {
+      background-color: #cf3476;
+    }
+    70% {
+      background-color: #ffff00;
+    }
+    100% {
+      background-color: #00a6d6;
+    }
+  }
+
+  @keyframes body {
+    0% {
+    }
+  }
+
+  ul {
+    flex-flow: wrap;
+  }
+  #uno {
+    background: transparent;
+    width: 240px;
+    height: 150px;
+  }
+  #dos {
+    background: transparent;
+    width: 240px;
+    height: 150px;
+  }
+  #tres {
+    background: transparent;
+    width: 240px;
+    height: 150px;
+  }
+  #cuatro {
+    background: transparent;
+    width: 240px;
+    height: 150px;
+  }
+
+  img.icon {
+    width: 80px;
+    padding: 15px;
+    margin-top: 1px;
+    box-shadow: 0 0 5px #000, 0 0 5px #000;
+  }
+
+  div {
+    flex-flow: column;
+  }
+
+  div.cubo {
+    margin-top: -10px;
+  }
+  div.cuadrado {
+    width: 100%;
+    margin-top: 1px;
+  }
 }
